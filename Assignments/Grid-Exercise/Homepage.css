@@ -1,0 +1,94 @@
+
+/* Navbar */
+#nav {
+    display: grid;
+    grid-template-columns: 1.5fr 2fr;
+
+}
+
+.box {
+    background-color: gray;
+    border: 1px solid black;
+    padding: 10px;
+    text-align: center;
+}
+
+/* Section-1 */
+#grid1 {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-auto-rows: 250px;
+    margin-bottom: 10px;
+}
+
+#image {
+    grid-row: 1/3;
+    grid-column: 2/3;
+}
+
+/* Section-2 */
+#grid2{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-auto-rows: 250px;
+    margin-bottom: 10px;
+    
+}
+
+#join-us {
+    grid-column: 1/5;
+
+}
+
+#grid3 {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 10px;
+}
+
+.small-box {
+    background-color: black;
+    color: white;
+    padding: 10px;
+}
+
+/* Section-3 */
+#grid4 {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-auto-rows: 250px;
+    margin-bottom: 10px;
+}
+
+#image-1 {
+    grid-row: 1/4;
+    grid-column: 2/3;
+}
+
+
+/* Footer */
+#footer {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-auto-rows: 200px;
+    margin-top: 10px;
+}
+
+#grid6 {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 10px;
+}
+
+#button {
+    max-height: 50px;
+}
+
+#logo {
+    max-height: 50px;
+}
+#copyright {
+    max-height: 50px;
+    grid-column: 1/3;
+    margin-top: -200px;
+}
