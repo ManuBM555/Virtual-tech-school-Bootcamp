@@ -1,0 +1,49 @@
+body {
+    margin-left: 20px;
+    margin-right: 20px;
+    line-height: 0px;
+}
+
+hr {
+    border-top: 1px solid black;
+}
+
+#grid1 {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+}
+#name {
+    grid-column: 1/4;
+}
+.align-right {
+    text-align: right;
+}
+.align-center {
+    text-align: center;
+}
+
+#grid2{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+}
+#skill-title {
+    grid-column: 1/3;
+}
+
+
+#grid3 {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+}
+#education-title {
+    grid-column: 1/4;
+}
+#graduation {
+    grid-column: 1/3;
+}
+#year {
+    text-align: right;
+}
+#edu-detail {
+    grid-column: 1/4;
+}
